@@ -2,6 +2,8 @@
 
 Machine coding for the nesting of folders in the ui.
 
+![image](./public/Pic1.png)
+
 ## Event Propgation in Javacript
 
 The `handlePropogation` function is used to stop the propagation of the click event. This is done using `e.stopPropagation()`. Let's break down why this is important and its use case in this scenario.
@@ -15,7 +17,7 @@ Event propagation is a mechanism that defines how events flow through the DOM tr
 
 By default, most events bubble up, meaning they propagate from the target element up through its ancestors in the DOM.
 
-### Scenario in Your Code
+### Scenario in Code
 
 Here’s a simplified version of the relevant part of your code:
 
